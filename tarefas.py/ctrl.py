@@ -11,7 +11,7 @@ while sairExercicio == False:
     exercicios = int(exercicios)
 
     if exercicios == 1: 
-        print("Ola Mundo!")
+        print("Ola Mundo!") 
 
     if exercicios == 2:
         numero =  input("Digite um numero: ")
