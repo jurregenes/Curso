@@ -68,7 +68,7 @@ while sairExercicio == False:
         convidado = ["Joao","Maria","Julia"]
         viajando = "Joao"
         convidado.remove (viajando)
-        print("convidado")
+        print("convidado") 
         
 
     if exercicios == 9: 
