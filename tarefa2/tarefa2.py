@@ -11,7 +11,8 @@ while sairExercicio == False:
     print("Exercicio 7: Removendo itens")
     print("Exercicio 8: Remove")
     print("Exercicio 9: Sort")
-    print("Exercicio 10: Sorted")
+    print("Exercicio 10: Reverse=true")
+    print("Exercicio 11: Sorted")
     print("Exercicio 12: Reverse")
     print("Exercicio 13: Exibir o tamanho de uma lista")
     print("Exercicio 14: Criar uma lista de numero")
@@ -72,34 +73,52 @@ while sairExercicio == False:
         
 
     if exercicios == 9: 
+        conbidados = ["Joao","Maria","Julia"]
+        convidados.sort  
+        print(convidados)
         
-
+    #ordem inversa reverse=true
     if exercicios == 10: 
+        convidados = ["Joao","Maria","Julia"]
+        convidados.sort (reverse=True)
+        print(convidados)
         
-
+    #se quiser colocar da forma inversa usa-se reverse=true
     if exercicios == 11: 
-        
+        convidados = ["Joao","Maria","Julia"]
+        print(sorted(convidados))
+
 
     if exercicios == 12: 
-        
+        convidados = ["Joao","Maria","Julia"]
+        convidados.reverse 
+        print(convidados)
+
 
     if exercicios == 13: 
+        convidados = ["Joao","Maria","Julia"]
+        print(len(convidados))
         
 
     if exercicios == 14: 
+        numeros = list (range(1,5))
         
 
     if exercicios == 15: 
+        print(min(numeros))
         
 
     if exercicios == 16: 
+        print(max(numeros))
         
 
     if exercicios == 17: 
+        print(convidados[1:3])
         
 
     if exercicios == 18: 
-        
+        convidados2 = convidados [:]
+        print(convidados2)
 
 
     sairExercicio2 = input("Deseja sair (s/n): ")
