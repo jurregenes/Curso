@@ -22,7 +22,7 @@ while sairExercicio == False:
     print("Exercicio 18: Parar uma lista")
 
     
-    exercicios = input("Digite o numero do exercicio: (1 - Exercicio 1, 2 - Exercicio 2, 3 - Exercicio 3, 4 - Exercicio 4, 5 - Exercicio 5, 6 - Exercicio 6, 7 - Exercicio 7, 8 - Exercicio 8, 9 - Exercicio 9, 10 - Exercicio 10, 11 - Exercicio 11, 12 - Exercicio 12, 13 - Exercicio 13, 14 - Exercicio 14, 15 - Exercicio 15, 16 - Exercicio 16, 17 - Exercicio 17, 18 - Exercicio 18,)")
+    exercicios = input("Digite o numero do exercicio: (1 - Exercicio 1, 2 - Exercicio 2, 3 - Exercicio 3, 4 - Exercicio 4, 5 - Exercicio 5, 6 - Exercicio 6, 7 - Exercicio 7, 8 - Exercicio 8, 9 - Exercicio 9, 10 - Exercicio 10, 11 - Exercicio 11, 12 - Exercicio 12, 13 - Exercicio 13, 14 - Exercicio 14, 15 - Exercicio 15, 16 - Exercicio 16, 17 - Exercicio 17, 18 - Exercicio 18)")
     exercicios = int(exercicios)
 
     if exercicios == 1: 
